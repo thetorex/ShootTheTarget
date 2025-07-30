@@ -18,14 +18,19 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    public void InGameScene() // oyun ekranı
+    public void LoadInGame() // oyun ekranı
     {
         SceneManager.LoadScene(1);
     }
 
-    public void MainMenuScene() // ana menü ekranı
+    public void LoadMainMenu() // ana menü ekranı
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void LoadOptionsMenu()
+    {
+        SceneManager.LoadScene(2);
     }
 
     public void ExitGame() // oyundan çıkma
