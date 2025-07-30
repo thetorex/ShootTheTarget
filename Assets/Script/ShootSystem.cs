@@ -1,10 +1,8 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class Shoot : MonoBehaviour
 {
-    // Değişken atamarlı
+    // Değişken tanımlamaları
     [SerializeField] private float destroyTime;
     public float score;
 

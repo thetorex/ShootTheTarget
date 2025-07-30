@@ -10,11 +10,11 @@ public class SceneController : MonoBehaviour
         if (instance == null) // objenin sahnede olup olmamasının kontrolü
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject); // objenin sahne geçişlerinde kaybolmaması için
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // birden fazla olduğunda silme işlemi
         }
     }
 
